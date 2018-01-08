@@ -4,7 +4,6 @@ def hello(environ, start_response):
     ('Content-Type', 'text/plain')
   ]
 
-  query = environ['QUERY_STRING'].split('&');
-  result = '\n'.join(query)
+  body = [bytes(i + '\n', 'ascii') for i in environ['QUERY_STRING'].split('&')]
   start_response(status, headers)
-  return [result]
+  return [body]
