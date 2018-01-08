@@ -4,7 +4,7 @@ def hello(environ, start_response):
     ('Content-Type', 'text/plain')
   ]
 
-  query = environ.QUERY_STRING.split('&');
+  query = environ['QUERY_STRING'].split('&');
   result = '\n'.join(query)
   start_response(status, headers)
   return [result]
