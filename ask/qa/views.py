@@ -7,4 +7,4 @@ def test(request, *args, **kwargs):
 
 
 def error(request, *args, **kwargs):
-    return Http404
+    raise Http404
