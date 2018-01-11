@@ -1,6 +1,7 @@
 {% for question in questions %}
     <div class="question">
-        <div class="question__title"><a href="{{ question.get_absolute_url }}">{{ question.title }}</a></div>
+        <div class="question__title">{{ question.title }}</div>
+        <a href="{{ question.get_absolute_url }}">{{ question.title }}</a>
     </div>
 {% endfor %}
 

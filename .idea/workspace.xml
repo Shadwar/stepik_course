@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66893506-f7cb-4c07-8fbb-656a419879b9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ask/qa/templates/qa/new_question_list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ask/qa/templates/qa/popular_question_list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ask/qa/templates/qa/question.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/stepik_course.iml" afterPath="$PROJECT_DIR$/.idea/stepik_course.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/ask/ask/settings.py" afterPath="$PROJECT_DIR$/ask/ask/settings.py" />
-      <change beforePath="$PROJECT_DIR$/ask/db.sqlite3" afterPath="$PROJECT_DIR$/ask/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/ask/qa/models.py" afterPath="$PROJECT_DIR$/ask/qa/models.py" />
-      <change beforePath="$PROJECT_DIR$/ask/qa/urls.py" afterPath="$PROJECT_DIR$/ask/qa/urls.py" />
-      <change beforePath="$PROJECT_DIR$/ask/qa/views.py" afterPath="$PROJECT_DIR$/ask/qa/views.py" />
+      <change beforePath="$PROJECT_DIR$/ask/qa/templates/qa/new_question_list.html" afterPath="$PROJECT_DIR$/ask/qa/templates/qa/new_question_list.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,10 +14,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ask/qa/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="548">
               <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
@@ -54,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_question_list.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="new_question_list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ask/qa/templates/qa/new_question_list.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
-              <caret line="2" column="74" lean-forward="false" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="74" />
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,8 +59,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ask/ask/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+            <state relative-caret-position="400">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,7 +69,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ask/qa/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
+            <state relative-caret-position="460">
               <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -145,12 +137,12 @@
         <option value="$PROJECT_DIR$/ask/ask/urls.py" />
         <option value="$PROJECT_DIR$/init.sh" />
         <option value="$PROJECT_DIR$/ask/qa/templates/qa/question.html" />
-        <option value="$PROJECT_DIR$/ask/ask/settings.py" />
         <option value="$PROJECT_DIR$/ask/qa/templates/qa/popular_question_list.html" />
-        <option value="$PROJECT_DIR$/ask/qa/templates/qa/new_question_list.html" />
         <option value="$PROJECT_DIR$/ask/qa/models.py" />
         <option value="$PROJECT_DIR$/ask/qa/urls.py" />
         <option value="$PROJECT_DIR$/ask/qa/views.py" />
+        <option value="$PROJECT_DIR$/ask/ask/settings.py" />
+        <option value="$PROJECT_DIR$/ask/qa/templates/qa/new_question_list.html" />
       </list>
     </option>
   </component>
@@ -407,37 +399,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ask/ask/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ask/qa/templates/qa/popular_question_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="11" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ask/qa/templates/qa/new_question_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="74" lean-forward="false" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ask/qa/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -451,13 +417,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ask/ask/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ask/qa/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="548">
           <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ask/qa/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ask/qa/templates/qa/new_question_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
