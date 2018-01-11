@@ -1,0 +1,20 @@
+{% for question in questions %}
+    <div class="question">
+        <div class="question__title"><a href="{{ question.get_absolute_url }}">{{ question.title }}</a></div>
+    </div>
+{% endfor %}
+
+{% if paginator %}
+<nav>
+    <ul>
+        {% for p in paginator.page_range %}
+            {% if p == page %}
+                <li class="active">
+            {% else %}
+                <li>
+            {% endif %}
+            <a href="{{ paginator.baseurl }}?page={{ p }}">{{ p }}</a>
+        {% endfor %}
+    </ul>
+</nav>
+{% endif %}

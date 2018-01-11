@@ -1,0 +1,12 @@
+<div class="question">
+    <div class="question__title">{{ question.title }}</div>
+    <div class="question__text">{{ question.text }}</div>
+
+    <div class="question__answers">
+        <ul>
+            {% for answer in question.answer_set.all %}
+               <li>{{ answer.text }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
