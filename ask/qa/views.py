@@ -1,9 +1,13 @@
 from django.core.paginator import Paginator
-from django.http import Http404
+from django.http import Http404, HttpResponseRedirect
 from django.shortcuts import HttpResponse, render, get_object_or_404
 from django.urls import reverse
 
 from qa.models import Question
+
+from qa.forms import AskForm, AnswerForm
+
+from qa.models import Answer
 
 
 def test(request, *args, **kwargs):
@@ -33,10 +37,31 @@ def new_questions(request):
     })
 
 
+def ask_question(request):
+    if request.method == 'POST':
+        form = AskForm(request.POST)
+        if form.is_valid():
+            new_question = Question(**form.cleaned_data)
+            new_question.save()
+            return HttpResponseRedirect(reverse('qa:question', kwargs={'id':new_question.id}))
+    else:
+        form = AskForm()
+        return render(request, 'qa/question_new.html', {
+            'form': form
+        })
+
+
 def question(request, id):
+    if request.method == 'POST':
+        form = AnswerForm(request.POST)
+        if form.is_valid():
+            answer = Answer(**form.cleaned_data)
+            answer.save()
     question = get_object_or_404(Question, pk=id)
+    form = AnswerForm()
     return render(request, 'qa/question.html', {
-        'question': question
+        'question': question,
+        'form': form
     })
 
 

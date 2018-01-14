@@ -2,6 +2,13 @@
     <div class="question__title">{{ question.title }}</div>
     <div class="question__text">{{ question.text }}</div>
 
+    <div class="question__answer">
+        <form action="/question/{{ question.id }}/" method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+        </form>
+    </div>
+
     <div class="question__answers">
         <ul>
             {% for answer in question.answer_set.all %}
